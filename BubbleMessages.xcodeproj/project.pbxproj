@@ -7,15 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C3A14F021388C9D00E8EB4A /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C3A14EF21388C9D00E8EB4A /* MessageCell.swift */; };
 		3C4FB7FF21372984003D6B53 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4FB7FE21372984003D6B53 /* AppDelegate.swift */; };
 		3C4FB80421372984003D6B53 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C4FB80221372984003D6B53 /* Main.storyboard */; };
 		3C4FB80621372985003D6B53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C4FB80521372985003D6B53 /* Assets.xcassets */; };
 		3C4FB80921372985003D6B53 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C4FB80721372985003D6B53 /* LaunchScreen.storyboard */; };
 		3C4FB81121372B1D003D6B53 /* BubbleMessageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4FB81021372B1D003D6B53 /* BubbleMessageController.swift */; };
-		3C4FB813213736DA003D6B53 /* ChatMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4FB812213736DA003D6B53 /* ChatMessage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3C3A14EF21388C9D00E8EB4A /* MessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
 		3C4FB7FB21372984003D6B53 /* BubbleMessages.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BubbleMessages.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C4FB7FE21372984003D6B53 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3C4FB80321372984003D6B53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -23,7 +24,6 @@
 		3C4FB80821372985003D6B53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3C4FB80A21372985003D6B53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3C4FB81021372B1D003D6B53 /* BubbleMessageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleMessageController.swift; sourceTree = "<group>"; };
-		3C4FB812213736DA003D6B53 /* ChatMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatMessage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +56,9 @@
 		3C4FB7FD21372984003D6B53 /* BubbleMessages */ = {
 			isa = PBXGroup;
 			children = (
-				3C4FB812213736DA003D6B53 /* ChatMessage.swift */,
-				3C4FB81021372B1D003D6B53 /* BubbleMessageController.swift */,
 				3C4FB7FE21372984003D6B53 /* AppDelegate.swift */,
+				3C4FB81021372B1D003D6B53 /* BubbleMessageController.swift */,
+				3C3A14EF21388C9D00E8EB4A /* MessageCell.swift */,
 				3C4FB80221372984003D6B53 /* Main.storyboard */,
 				3C4FB80521372985003D6B53 /* Assets.xcassets */,
 				3C4FB80721372985003D6B53 /* LaunchScreen.storyboard */,
@@ -138,9 +138,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3C4FB813213736DA003D6B53 /* ChatMessage.swift in Sources */,
 				3C4FB7FF21372984003D6B53 /* AppDelegate.swift in Sources */,
 				3C4FB81121372B1D003D6B53 /* BubbleMessageController.swift in Sources */,
+				3C3A14F021388C9D00E8EB4A /* MessageCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
